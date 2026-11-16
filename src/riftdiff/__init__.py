@@ -1,6 +1,6 @@
 """rift: local-first data diff, powered by DuckDB."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .engine import DiffResult, RiftError, RowChange, diff  # noqa: E402
 
