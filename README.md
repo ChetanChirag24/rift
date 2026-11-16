@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ChetanChirag24/rift/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ChetanChirag24/rift/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white">
   <img alt="Powered by DuckDB" src="https://img.shields.io/badge/powered%20by-DuckDB-FFF000?logo=duckdb&logoColor=black">
   <img alt="Formats" src="https://img.shields.io/badge/formats-CSV%20%C2%B7%20Parquet%20%C2%B7%20JSON-22d3ee">
@@ -187,7 +188,7 @@ pip install riftdiff
 Or from source:
 
 ```bash
-git clone <this repo> && cd rift
+git clone https://github.com/ChetanChirag24/rift.git && cd rift
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e '.[dev]'
 pytest

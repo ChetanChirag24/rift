@@ -32,6 +32,12 @@ dependencies = [
     "rich>=13.0.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/ChetanChirag24/rift"
+Source = "https://github.com/ChetanChirag24/rift"
+Issues = "https://github.com/ChetanChirag24/rift/issues"
+Changelog = "https://github.com/ChetanChirag24/rift/releases"
+
 [project.optional-dependencies]
 dev = ["pytest>=7"]
 

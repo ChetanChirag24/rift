@@ -5,14 +5,14 @@ Releases are published to PyPI by GitHub Actions ([publish.yml](.github/workflow
 
 ## One-time setup
 
-1. **Push the repo to GitHub** (e.g. `github.com/<you>/rift`).
+1. **Push the repo to GitHub.** Done: <https://github.com/ChetanChirag24/rift>.
 2. **Register the publisher on PyPI.** Go to <https://pypi.org/manage/account/publishing/> and, under
    *Add a new pending publisher*, enter:
 
    | Field | Value |
    | --- | --- |
    | PyPI project name | `riftdiff` |
-   | Owner | your GitHub user or org |
+   | Owner | `ChetanChirag24` |
    | Repository name | `rift` |
    | Workflow name | `publish.yml` |
    | Environment name | `pypi` |
