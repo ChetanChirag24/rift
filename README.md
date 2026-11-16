@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white">
+  <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white">
   <img alt="Powered by DuckDB" src="https://img.shields.io/badge/powered%20by-DuckDB-FFF000?logo=duckdb&logoColor=black">
   <img alt="Formats" src="https://img.shields.io/badge/formats-CSV%20%C2%B7%20Parquet%20%C2%B7%20JSON-22d3ee">
   <img alt="Git aware" src="https://img.shields.io/badge/git-aware-F05032?logo=git&logoColor=white">
