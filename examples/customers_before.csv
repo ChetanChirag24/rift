@@ -1,0 +1,7 @@
+customer_id,name,status,revenue,region
+1,Acme Corp,active,12000,West
+2,Globex,active,8500,East
+3,Initech,churned,0,West
+4,Umbrella,active,15000,North
+5,Hooli,active,22000,West
+6,Stark Ind,active,45000,East

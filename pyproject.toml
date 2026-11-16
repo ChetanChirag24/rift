@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riftdiff"
+dynamic = ["version"]
+description = "Local-first data diff, powered by DuckDB. See exactly what changed before you merge."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["diff", "data", "csv", "parquet", "duckdb", "data-quality"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Topic :: Database",
+]
+dependencies = [
+    "duckdb>=0.10.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+rift = "riftdiff.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "riftdiff.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
